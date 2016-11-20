@@ -9,9 +9,9 @@
 # You need to edit these values.
 
 DICT_NAME		=	"lojban-apple"
-DICT_SRC_PATH		=	"lojban-apple.xml"
-CSS_PATH		=	"lojban-apple.css"
-PLIST_PATH		=	"lojban-apple.plist"
+DICT_SRC_PATH	=	"$(PWD)/lojban-apple.xml"
+CSS_PATH		=	"$(PWD)/lojban-apple.css"
+PLIST_PATH		=	"$(PWD)/lojban-apple.plist"
 
 DICT_BUILD_OPTS		=
 # Suppress adding supplementary key.
