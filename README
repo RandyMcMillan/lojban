@@ -2,3 +2,5 @@
 
 
 [https://github.com/ilius/pyglossary#format-specific-requirements](https://github.com/ilius/pyglossary#format-specific-requirements)
+
+<code>python3 ~/lojban/pyglossary/pyglossary.pyw  --write-format=AppleDict ~/lojban/lojban.xml ~/lojban/lojban-apple</code>
