@@ -14,12 +14,12 @@ fi
 
 if [ ! -d /DevTools/Utilities ]; then
 
-mkdir /DevTools/Utilities
+rsync -av "/Volumes/Auxiliary Tools" "/DevTools/"
 
-fi
+sudo mv /DevTools/Auxiliary\ Tools /DevTools/Utilities
 
-if [ ! -d /DevTools/Utilities/Dictionary\ Development\ Kit ]; then
+else
 
-cp /Volumes/Auxiliary Tools/Dictionary\ Development\ Kit /DevTools/Utilities/ictionary\ Development\ Kit/
+echo "else if"
 
 fi
