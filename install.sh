@@ -8,18 +8,18 @@ fi
 
 if [ ! -d /DevTools ]; then
 
-mkdir /DevTools
+sudo mkdir /DevTools
 
 fi
 
 if [ ! -d /DevTools/Utilities ]; then
 
-rsync -av "/Volumes/Auxiliary Tools" "/DevTools/"
-
+sudo rsync -av "/Volumes/Auxiliary Tools" "/DevTools/"
 sudo mv /DevTools/Auxiliary\ Tools /DevTools/Utilities
+cd /DevTools/Utilities
 
 else
 
-echo "else if"
+cd /DevTools/Utilities
 
 fi

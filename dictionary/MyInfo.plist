@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.randymcmillan.lojban</string>
+	<key>CFBundleName</key>
+	<string>lojban</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>DCSDictionaryCopyright</key>
+	<string>Copyright © 2017 Randy McMillan</string>
+	<key>DCSDictionaryManufacturerName</key>
+	<string>RandyMcMillan.net</string>
+	<key>DCSDictionaryFrontMatterReferenceID</key>
+	<string>front_back_matter</string>
+	<key>DCSDictionaryPrefsHTML</key>
+	<string>lojban_prefs.html</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
+	<key>DCSDictionaryXSL</key>
+	<string>lojban.xsl</string>
+	<key>DCSDictionaryDefaultPrefs</key>
+	<dict>
+		<key>pronunciation</key>
+		<string>0</string>
+		<key>display-column</key>
+		<string>1</string>
+		<key>display-picture</key>
+		<string>1</string>
+		<key>version</key>
+		<string>1</string>
+	</dict>
+</dict>
+</plist>
